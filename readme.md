@@ -1,24 +1,4 @@
-\# Word AI Formula Assistant 🤖📐
 
-
-
-A VSTO-based Word Add-in designed to streamline the workflow of converting AI-generated LaTeX formulas (from ChatGPT, Claude, DeepSeek, etc.) into editable \*\*MathType\*\* equations in Microsoft Word.
-
-
-
-It supports one-click conversion of LaTeX code (`$$...$$`, `\\\[...\\]`) and intelligently handles mixed text-formula layouts.
-
-
-
-\## ✨ Features
-
-
-
-\* \*\*Smart Cleaning\*\*: Automatically removes AI-generated Markdown markers and non-standard LaTeX delimiters.
-
-\* \*\*Mixed Layout Support\*\*: Uses a Regex-based lexer to accurately separate plain text from formulas, allowing for perfect pasting of entire paragraphs.
-
-\* \*\*Deep MathType Integration\*\*: Leverages underlying COM interfaces to render LaTeX as editable MathType objects.
 
 \* \*\*Robust Design\*\*:
 
